@@ -1,0 +1,13 @@
+{
+  "name": "Date4uU",
+  "version": "1.0",
+  "description": "Gets date of web page.",
+
+  "icons": {},
+  "permissions": ["http://*.google.com/", "https://*.google.com/"],
+  "browser_action": {
+    "default_title": "Get date of web page",
+    "default_icon": "date icon.png",
+    "default_popup": ""
+  }
+}
