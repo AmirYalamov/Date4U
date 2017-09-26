@@ -1,10 +1,10 @@
 
 {
   "manifest_version": 2,
-  
+
   "name": "Date4uU",
   "version": "1.0",
-  "description": "Gets date of web page.",
+  "description": "This extension gives the user the date of the article or webpage they are on.",
 
   "icons": {},
   "permissions": ["http://*.google.com/", "https://*.google.com/"],
