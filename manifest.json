@@ -9,9 +9,9 @@
 
   "background": {
     "persistent": false
-  }
+  },
 
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "Get date of web page",
     "default_icon": "date icon.png",
