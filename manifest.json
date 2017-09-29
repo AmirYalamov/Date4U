@@ -8,6 +8,7 @@
   "icons": {},
 
   "background": {
+    "scripts": ["DateGetter.js"],
     "persistent": false
   },
 
