@@ -16,6 +16,6 @@
   "browser_action": {
     "default_title": "Get date of web page",
     "default_icon": "date icon.png",
-    "default_popup": ""
+    "default_popup": "popup.html"
   }
 }
