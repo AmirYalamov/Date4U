@@ -12,7 +12,7 @@
     "persistent": false
   },
 
-  "permissions": ["http://*.google.com/", "https://*.google.com/"],
+  "permissions": ["http://*.google.com/", "https://*.google.com/", "activeTab", "storage"],
   "browser_action": {
     "default_title": "Get date of web page",
     "default_icon": "date icon.png",
