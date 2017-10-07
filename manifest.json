@@ -17,5 +17,12 @@
     "default_title": "Get date of web page",
     "default_icon": "date icon.png",
     "default_popup": "popup.html"
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "js": ["DateGetter.js"]
+    }
+  ]
 }
