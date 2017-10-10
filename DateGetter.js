@@ -2,9 +2,14 @@
 //makes use of "datePublished": function
 
 function getDate() {
-  var element = document.getElementById("datePublished");
-  var date = element.innerText.search(/"datePublished":"(.+)"/);
+  var idStr = elt.id;   // get the ID
+  elt.id = idStr;   // set the ID
+
+  var element = document.getElementById("idStr");
+var date = element.innerText.search(/"datePublished":"(.+)"/);
+
   chrome.tabs.executeScript({
     code: date
   })
+  return date;
 }
