@@ -3,4 +3,4 @@ Chrome extension that provides date the web page was edited or published, using 
 
 Coded in HTML and JavaScript.
 
-Currently in development.
+Currently in development (need to get id from source into js file, make date show up in browser).
