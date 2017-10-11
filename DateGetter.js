@@ -11,5 +11,5 @@ var date = element.innerText.search(/"datePublished":"(.+)"/);
   chrome.tabs.executeScript({
     code: date
   })
-  return date;
+  console.log(date)
 }
